@@ -1,0 +1,346 @@
+.qqContainer{
+    min-height: 90px;
+}
+ .headerUl>li{
+	float:left;
+	
+}
+.headerUl>li:nth-child(1) {
+	margin-right:20px;
+}
+.headerUl>li:nth-child(1) a img{
+	width:170px;
+	height:46px;
+	margin-top:23px;
+	
+}
+.headerUl>li:nth-child(2){
+	width:90px;
+	height:90px;
+	line-height:90px;
+	text-align:center;
+}
+.headerUl>li:nth-child(3){
+	width:90px;
+	height:90px;
+	line-height:90px;
+	text-align:center;
+}
+.headerUl>li:nth-child(4){
+	width:90px;
+	height:90px;
+	line-height:90px;
+	text-align:center;
+}
+.headerUl>li:nth-child(5){
+	width:90px;
+	height:90px;
+	line-height:90px;
+	text-align:center;
+}
+.headerUl>li:nth-child(6){
+	width:50px;
+	height:90px;
+	line-height:90px;
+	text-align:center;
+}
+.headerUl>li:nth-child(7){
+	width:220px;
+	height:36px;
+	margin-top:25px;
+	margin-left:40px;
+	position:relative;
+	border:1px solid #C9C9C9;
+}
+.headerUl>li:nth-child(7) input{
+	width:174px;
+	height:30px;
+	border:0 none;
+	outline:none;
+	position:absolute;
+	top:3px;
+	left:10px;
+}
+.headerUl>li:nth-child(7) img{
+	position:absolute;
+	top:9px;
+	right:5px;
+}
+.headerUl>li:nth-child(8) {
+	width:38px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:31px;
+	text-align:center;
+}
+.headerUl>li:nth-child(9) a {
+	display:block;
+	width:100px;
+	height:38px;
+	color:#fff;
+	margin-top:25px;
+	line-height:38px;
+	text-align:center;
+	margin-left:10px;
+	border-radius:3px;
+}
+.headerUl>li:nth-child(10) a {
+	display:block;
+	width:80px;
+	height:37px;
+	margin-top:25px;
+	margin-left:10px;
+	line-height:37px;
+	text-align:center;
+	border-radius:3px;
+}
+/*	nav 部分*/
+ .navUl{
+    height: 51px;
+    line-height: 51px;
+	padding-left: 230px;
+    margin-right: -50px;
+ }
+ .navUl>li{
+	float:left;
+	margin-right: 47px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+/*歌单推荐*/
+.recommend{
+	background-color:#F3F3F3;
+	position:relative;
+}
+/*左右箭头*/
+.recommend .leftIcon{
+	width:60px;
+	height:100px;
+	background-color:#5C5C5C;
+	border-radius:3px;
+	position:absolute;
+	top:230px;
+	left:10px;
+	text-align:center;
+	line-height:100px;
+	opacity:0.4;
+}
+.recommend .rightIcon{
+	width:60px;
+	height:100px;
+	background-color:#5C5C5C;
+	border-radius:3px;
+	position:absolute;
+	top:230px;
+	right:10px;
+	text-align:center;
+	line-height:100px;
+	opacity:0.4;
+}
+.index-head{
+	position: relative;
+    padding-top: 4.16667%;
+    padding-bottom: 2%;
+}
+.index-title{
+	display:block;
+	margin:0 auto;
+	width: 196px;
+    height: 40px;
+}
+/*歌单推荐tab*/
+.index-nav{
+	text-align:center;
+}
+.index_tab{
+	height: 50px;
+	line-height: 50px;
+	display:inline-block;
+	text-align:center;
+}
+.index_tab>li{
+	float:left;
+	margin-right: 47px;
+	height:50px;
+	line-height:50px;
+}
+.mod-play{
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+.mod-play ul>li{
+	width:220px;
+	height:300px;
+	float:left;
+	line-height:220px;
+	margin-right:6px;
+	position:relative;
+/*	border:1px solid red;*/
+}
+.mod-play ul>li dt a img{
+	width:220px;
+	height:220px;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+.mod-play ul>li dt b{
+    width: 70px;
+    height: 70px;
+    background: #F2F2F2;
+/*	border: 1px solid red;*/
+	border-radius:50%;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.mod-play ul>li dt b img{
+	width:30px;
+	height:30px;
+	position: absolute;
+    top: 20px;
+    left:20px;
+}
+.mod-play dd:nth-child(2){
+	color:#ddd;
+	position: absolute;
+    top: 128px;
+    left:-40px;
+}
+.mod-play dd:nth-child(3) a{
+	color:#999999;
+	text-decoration:none;
+	position: absolute;
+    top: 150px;
+    left:0px;
+}
+/*导航小圆点*/
+.circles{
+	position:absolute;
+	top:480px;
+	left:45%;
+}
+.circle{
+	float:left;
+	margin-right:15px;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background-color:#B2B2B2;
+}
+/*新歌首发*/
+.newSongs{
+	height:500px;
+	margin-top:60px;
+	background-color:#F3F3F3;
+	position:relative;
+}
+.newSongs-head{
+	position: relative;
+    padding-top: 4.16667%;
+    padding-bottom: 2%;
+}
+.newSongs-title{
+	display:block;
+	margin:0 auto;
+	width: 196px;
+    height: 40px;
+}
+.newSongs-nav li{
+	float:left;
+	margin-right: 50px;
+	height:50px;
+	line-height:50px;
+}
+.all-play{
+	display: block;
+    width: 123px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 3px;
+}
+.tab_right{
+	margin-left: 250px;
+}
+.firstLi{
+	width:32%;
+	height:92px;
+	margin-top:20px;
+	position:relative;
+}
+.firstLi a img{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.firstLi b a img{
+	position:absolute;
+	border-radius:50%;
+	top:30px;
+	left:30px;
+}
+.firstLi h4 a {
+	width:180px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	position:absolute;
+	color:#8F8F8F;
+	top:30px;
+	left:100px;
+}
+.firstLi p a {
+	position:absolute;
+	top:50px;
+	color:#B0B0B0;
+	left:100px;
+}
+.firstLi .song_list_time{
+	position:absolute;
+	top:40px;
+	color:#B0B0B0;
+	left:330px;
+}
+/*轮播下方小圆点*/
+.circles1{
+	position:absolute;
+	top:550px;
+	left:45%;
+}
+.circle1{
+	float:left;
+	margin-right:20px;
+	margin-bottom:30px;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background-color:#B2B2B2;
+}
+.leftIcon1{
+	width:60px;
+	height:100px;
+	background-color:#5C5C5C;
+	border-radius:3px;
+	position:absolute;
+	top:270px;
+	left:10px;
+	text-align:center;
+	line-height:100px;
+	opacity:0.4;
+}
+.rightIcon1{
+	width:60px;
+	height:100px;
+	background-color:#5C5C5C;
+	border-radius:3px;
+	position:absolute;
+	top:270px;
+	right:10px;
+	text-align:center;
+	line-height:100px;
+	opacity:0.4;
+}
